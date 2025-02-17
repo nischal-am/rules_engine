@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+business-rules
+psycopg2
+psycopg2-binary
+pydantic

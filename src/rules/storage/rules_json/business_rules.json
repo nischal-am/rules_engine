@@ -1,0 +1,23 @@
+[
+    {
+        "conditions": {
+            "all": [
+                {
+                    "name": "transaction_amount",
+                    "operator": "greater_than",
+                    "value": "threshold_amount"
+                },
+                {
+                    "name": "funding_type",
+                    "operator": "equal_to_case_insensitive",
+                    "value": "instant-funding"
+                }
+            ]
+        },
+        "actions": [
+            {
+                "name": "boolean_trigger"
+            }
+        ]
+    }
+]
